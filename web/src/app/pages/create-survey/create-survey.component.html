@@ -21,7 +21,7 @@
   <div id="loading-spinner" class="loading-spinner" *ngIf="setupPhase === SetupPhase.LOADING">
     <div>
       <mat-spinner></mat-spinner>
-      <p class="loading-label">Loading survey...</p>
+      <p class="loading-label">Loading survey...</p> <!-- TransRef: survey_loading -->
     </div>
   </div>
 
@@ -42,8 +42,8 @@
         <div [ngSwitch]="setupPhase">
           <ground-step-card
             *ngSwitchCase="SetupPhase.SURVEY_DETAILS"
-            title="Start building your survey"
-            description="Provide some basic info about your survey."
+            title="Start building your survey" <!-- TransRef: survey_build -->
+            description="Provide some basic info about your survey." <!-- TransRef: survey_provide_info -->
           >
             <survey-details
               #surveyDetails
