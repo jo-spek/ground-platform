@@ -17,19 +17,19 @@
 <div class="page">
   <ground-header></ground-header>
   <div class="page-content">
-    <h1 class="page-title">Terms Of Service</h1>
+    <h1 class="page-title">Terms Of Service</h1> <!-- TransRef: terms_of_service -->
     <div class="terms-text-container" [innerHTML]="termsOfServiceText"></div>
     <div class="action-buttons">
       @if(!hasAcceptedTos) {
         <mat-checkbox [(ngModel)]="isTermsOfServiceChecked">
-          I have read and agree with terms of service.
+          I have read and agree with terms of service. <!-- TransRef: terms_of_service_agree -->
         </mat-checkbox>
         <button
           mat-flat-button
           (click)="onContinueButtonClick()"
           [disabled]="!isTermsOfServiceChecked"
         >
-          Continue
+          Continue <!-- TransRef: continue -->
         </button>
       }
       @else {
