@@ -1,1 +1,17 @@
+{
+  "en": {
+    "sign_in": "Sign in to continue",
+    "terms_of_service": "Terms of Service",
+    "terms_of_service_agree": "I have read and agree with terms of service.",
+    <!-- WHERE IS THE ACTUAL TERMS OF SERVICE TEXT LOCATED? -->
+    "continue": "Continue"
+    "about": "About"
+    "manage_survey": "Manage survey"
+  },
+  "es": {
+    "welcome_message": "¡Bienvenido a nuestra plataforma!",
+    "logout_button": "Cerrar sesión",
+    "profile_label": "Tu perfil"
+  }
+}
 
