@@ -22,7 +22,7 @@
       </div>
       <p class="title">Ground</p>
       <p class="cta" *ngIf="!(isAuthenticated$() | async)">
-        Sign in to continue <!-- TransRef: sign-in -->
+        Sign in to continue <!-- TransRef: sign_in -->
       </p>
       <div class="buttons">
         <firebase-ui (signInFailure)="errorCallback($event)"></firebase-ui>
