@@ -3,15 +3,32 @@
     "sign_in": "Sign in to continue",
     "terms_of_service": "Terms of Service",
     "terms_of_service_agree": "I have read and agree with terms of service.",
-    <!-- WHERE IS THE ACTUAL TERMS OF SERVICE TEXT LOCATED? -->
+    WHERE IS THE ACTUAL TERMS OF SERVICE TEXT LOCATED?
     "continue": "Continue"
     "about": "About"
     "manage_survey": "Manage survey"
+    "about_text": "Ground is an open-source community project built by Google and FAO under the Forest Data Partnership with help from SIG, Ecam, and open-source community contributors."
+    "license_intro": "It is licensed under the"
+    "copyright": "Copyright 2024"
+    "ground_authors": "The Ground Authors"
+    "back": "Back"
+
+    "sign_out": "Sign out"
+    "surveys": "Surveys"
+    "create_survey": "Create survey"
+    "create_survey_subtext": "Define jobs and sites for data collectors"
+    
+    "survey_loading": "Loading survey..."
+    "survey_build": "Start building your survey"
+    "survey_provide_info": "Provide some basic info about your survey."
+  
+    
+    
   },
   "es": {
-    "welcome_message": "¡Bienvenido a nuestra plataforma!",
-    "logout_button": "Cerrar sesión",
-    "profile_label": "Tu perfil"
+    "sign_in": "Inicia sesión para continuar",
+    "terms_of_service": "Condiciones del servicio.",
+    "terms_of_service_agree": "He leído y acepto las condiciones del servicio.",
   }
 }
 
